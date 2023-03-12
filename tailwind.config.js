@@ -10,7 +10,12 @@ module.exports = {
   ],
   theme: {
     extend: {
-    }
-  },
-  plugins: [],
+      colors: {
+        primary: "#845EC2",
+        secondary: "#2C73D2",
+        tertiary: "#008F7A",
+      }
+    },
+    plugins: [],
+  }
 }
