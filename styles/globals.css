@@ -57,17 +57,9 @@ body {
   background-color: #ffffffca;
 }
 
-/* .footer {
-  bottom: 0;
-  position: absolute;
-  display: flex;
-  text-align: center;
-  background: rgba(255, 255, 255, 0.1);
-} */
-
 .header {
   color: #ffffff;
-  padding-bottom: 2%;
+  padding-bottom: 4%;
   top: 0;
 }
 
@@ -80,20 +72,43 @@ body {
 }
 
 .home_container {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */
   margin: 0 auto;
   width: 89%;
 }
 
-.footer_container {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */
+.cross {
+  position: relative;
+  top: -93%;
+  left: 59%;
+  width: 3%;
+}
 
+.ellipse {
+  position: relative;
+  top: -76%;
+  left: 15%;
+  width: 3%;
+}
+
+.vector {
+  position: relative;
+  top: -61%;
+  left: -4%;
+  width: 12%;
+}
+
+.slogan {
+  line-height: 1.3;
+}
+
+.heroLine {
+  border: none;
+  height: 2px;
+  color: #008F7A;
+  background-color: #008F7A;
+}
+
+.footer_container {
   margin: 0 auto;
   height: 100%;
   width: 89%;
@@ -105,4 +120,115 @@ body {
   height: 1px;
   color: #ffffffca;
   background-color: #ffffffca;
+}
+
+/* .hero,
+.browseJobs {
+  margin-bottom: 1%;
+} */
+
+.hero_main {
+  position: relative;
+  right: -8%;
+  top: 1%;
+}
+
+.browse {
+  width: 100%;
+}
+
+.category_search {
+  color: #9b9b9b;
+}
+
+.divider {
+  border-left: 1px solid #fff;
+}
+
+.keyword:focus,
+.location:focus,
+.category:focus {
+  outline: none;
+}
+
+.aboutUs_points {
+  list-style-image: url('../public/tick.svg');
+}
+
+.category,
+.jobcard {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.circle {
+  -webkit-box-shadow: 0px 22px 0px 2px rgba(18, 37, 62, 1);
+  -moz-box-shadow: 0px 22px 0px 2px rgba(18, 37, 62, 1);
+  box-shadow: 0px 22px 0px 2px rgba(18, 37, 62, 1);
+  position: relative;
+  top: -20%;
+}
+
+
+.vector_2 {
+  position: relative;
+  top: 1%;
+  left: 31%;
+  z-index: 10;
+}
+
+.number {
+  position: relative;
+  top: 11%;
+  left: 40%;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 96px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: capitalize;
+  opacity: 0.4;
+  transform: rotate(15deg);
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+}
+
+.last_circle {
+  position: relative;
+  top: 15%;
+}
+
+.number_3 {
+  position: relative;
+  left: 22%;
+  top: 14%;
+}
+
+
+.howItWorks {
+  position: relative;
+  bottom: 10%;
+}
+
+.two-para {
+  position: relative;
+  top: -11.5%;
+}
+
+
+.subscribe {
+  background-color: #1A2330;
+}
+
+.subscribe_email {
+  color: #010B18
+}
+
+.subscribe_email::placeholder {
+  color: #c4c4c4;
+}
+
+.subscribe_email:focus {
+  padding-left: 16px;
+  outline: none;
 }

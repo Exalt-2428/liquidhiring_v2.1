@@ -36,7 +36,7 @@ const Header = () => {
                                         <Icon icon="il:arrow-down" className="h-3 w-3 m-2" />
                                     }
                                 </li>
-                                {show ? <ul className="absolute transparentCard rounded-lg p-1">
+                                {show ? <ul className="absolute transparentCard rounded-lg p-1 z-10">
                                     <li className="hover:bg-primary hover:text-black p-2 rounded-lg">Web Development</li>
                                     <li className="hover:bg-primary hover:text-black p-2 rounded-lg">Mobile Development</li>
                                     <li className="hover:bg-primary hover:text-black p-2 rounded-lg">UI/UX Design</li>
