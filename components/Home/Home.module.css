@@ -1,0 +1,203 @@
+#home_container {
+    margin: 0 auto;
+    width: 89%;
+}
+
+#cross {
+    position: relative;
+    top: -93%;
+    left: 59%;
+    width: 3%;
+}
+
+#ellipse {
+    position: relative;
+    top: -76%;
+    left: 15%;
+    width: 3%;
+}
+
+#vector {
+    position: relative;
+    top: -61%;
+    left: -4%;
+    width: 12%;
+}
+
+#hero_line {
+    border: none;
+    height: 2px;
+    color: #008F7A;
+    background-color: #008F7A;
+}
+
+#hero_main {
+    position: relative;
+    right: -8%;
+    top: 1%;
+}
+
+#about_us_points li {
+    background: url('../../public/images/tick.svg') no-repeat left center;
+    padding: 5px 10px 5px 25px;
+    list-style: none;
+    margin: 0;
+    vertical-align: middle;
+}
+
+#category_card,
+#job_card {
+    background: rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+}
+
+#category_card:hover,
+#job_card:hover {
+    transform: translateY(-5%);
+    scale: 1.05;
+}
+
+#last_circle {
+    position: relative;
+    top: 15%;
+}
+
+#number_3 {
+    position: relative;
+    left: 22%;
+    top: 14%;
+}
+
+#how_it_works {
+    position: relative;
+    bottom: 10%;
+}
+
+#subscribe {
+    background-color: #1A2330;
+    z-index: 10;
+}
+
+#subscribe_email {
+    color: #010B18
+}
+
+#subscribe_email::placeholder {
+    color: #c4c4c4;
+}
+
+#subscribe_email:focus {
+    padding-left: 16px;
+    outline: none;
+}
+
+#about_us_left {
+    width: 55%;
+}
+
+.browse {
+    width: 100%;
+}
+
+.category_search {
+    color: #9b9b9b;
+}
+
+.divider {
+    border-left: 1px solid white;
+}
+
+.keyword:focus,
+.location:focus,
+.categories:focus {
+    outline: none;
+}
+
+.circle {
+    -webkit-box-shadow: 0px 22px 0px 2px rgba(18, 37, 62, 1);
+    -moz-box-shadow: 0px 22px 0px 2px rgba(18, 37, 62, 1);
+    box-shadow: 0px 22px 0px 2px rgba(18, 37, 62, 1);
+    position: relative;
+    top: -20%;
+}
+
+.vector_2 {
+    position: relative;
+    top: 1%;
+    left: 31%;
+    z-index: 10;
+}
+
+.number {
+    position: relative;
+    top: 11%;
+    left: 40%;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 96px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    opacity: 0.4;
+    transform: rotate(15deg);
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+}
+
+.two_para {
+    position: relative;
+    top: -11.5%;
+}
+
+#slogan,
+.section_title {
+    line-height: 1.3;
+}
+
+#about_us_dots {
+    position: absolute;
+    z-index: 10;
+    top: 167%;
+    right: 0;
+}
+
+#about_us_ellipse {
+    position: absolute;
+    z-index: 10;
+    top: 180%;
+    right: 20%;
+}
+
+#subscribe_ellipse {
+    position: absolute;
+    z-index: 0;
+    top: 525%;
+    left: 0;
+}
+
+#subscribe_dots {
+    position: absolute;
+    z-index: 11;
+    top: 587%;
+    right: 8%;
+}
+
+
+#how_it_works_steps:hover .circle,
+#how_it_works_steps:hover .two_para,
+#how_it_works_steps:hover .third_para {
+    transform: translateY(-10%);
+}
+
+#how_it_works_steps:hover .number {
+    -webkit-text-fill-color: white;
+    opacity: 1;
+}
+
+#how_it_works_steps .circle,
+#how_it_works_steps .two_para,
+#how_it_works_steps .third_para,
+#how_it_works_steps .number {
+    transition: all 0.3s ease;
+}

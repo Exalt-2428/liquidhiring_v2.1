@@ -1,0 +1,20 @@
+#footer {
+    position: sticky;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+#footer_container {
+    margin: 0 auto;
+    height: 100%;
+    width: 89%;
+}
+
+#footer_line {
+    border: none;
+    height: 1px;
+    color: #ffffffca;
+    background-color: #ffffffca;
+}

@@ -1,0 +1,13 @@
+#header {
+    color: #ffffff;
+    padding-bottom: 4%;
+    top: 0;
+}
+
+#headerLine {
+    width: 89%;
+    border: none;
+    height: 0.5px;
+    color: #ffffffca;
+    background-color: #ffffffca;
+}

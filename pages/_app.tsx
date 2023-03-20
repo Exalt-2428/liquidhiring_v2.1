@@ -1,6 +1,17 @@
-import '@/styles/globals.css'
-import type { AppProps } from 'next/app'
+import React from 'react';
+import Head from 'next/head';
+import type { AppProps } from 'next/app';
+import '../styles/globals.css';
 
-export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+function LiquidHiring({ Component, pageProps }: AppProps) {
+  return (
+    <>
+      <Head>
+        <title>LiquidHiring</title>
+      </Head>
+      <Component {...pageProps} />
+    </>
+  )
 }
+
+export default LiquidHiring;
